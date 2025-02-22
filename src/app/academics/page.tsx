@@ -94,7 +94,7 @@ export default function Academics() {
       content: (
         <ul className="list-disc ml-6 space-y-2 text-gray-700">
           <li>
-            <strong>Team Lead, AI/ML Web and Coding Club, NITP</strong> (Sep 2024 – Present) – Leading projects like "OCR model MNIST" and "RNN-S-OCR."
+            <strong>Team Lead, AI/ML Web and Coding Club, NITP</strong> (Sep 2024 – Present) – Leading projects like &quot;OCR model MNIST&quot; and &quot;RNN-S-OCR.&quot;
           </li>
           <li>
             <strong>Team Coordinator, AI/ML Google Developer Students Club, NITP</strong> (Aug 2023 – Jun 2024) – Organized open-book tests and designed contest questions.
