@@ -23,7 +23,6 @@ export default function Blog() {
         { title: 'Blog', href: '/blog' },
     ];
 
-    // Update filtered posts when search term changes
     useEffect(() => {
         const filtered = blogPosts.filter(post => {
             return searchTerm === '' ||
@@ -36,7 +35,6 @@ export default function Blog() {
 
     return (
         <>
-            {/* Fixed Navigation with glass effect */}
             <div className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrollY > 10 ? "bg-white/90 backdrop-blur-md shadow-sm" : "bg-white"}`}>
                 <div className="mx-auto max-w-5xl px-6 py-4 flex items-center justify-between">
                     <Link href="/" passHref className="text-2xl font-bold tracking-tight text-gray-900 hover:text-blue-700 transition-colors">
@@ -83,7 +81,6 @@ export default function Blog() {
                     </div>
                 </div>
 
-                {/* Mobile Navigation Menu */}
                 <div
                     className={`md:hidden transition-all duration-300 ease-in-out overflow-hidden ${
                         isOpen ? "max-h-60 py-3 shadow-lg" : "max-h-0"
@@ -105,7 +102,6 @@ export default function Blog() {
                 </div>
             </div>
 
-            {/* Main Content */}
             <div className="pt-24 pb-12 px-4 max-w-5xl mx-auto">
                 <motion.div 
                     initial={{ opacity: 0, y: -10 }}
@@ -116,11 +112,10 @@ export default function Blog() {
                     <h1 className="text-4xl md:text-5xl font-bold mb-2 bg-gradient-to-r from-blue-700 via-indigo-700 to-violet-800 inline-block text-transparent bg-clip-text">Publications & Insights</h1>
                     <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-indigo-600 mx-auto mt-2"></div>
                     <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-                        Exploring research frontiers in artificial intelligence, machine learning, and computational models
+                        Exploring research in artificial intelligence, machine learning, and computational models
                     </p>
                 </motion.div>
 
-                {/* Search Section */}
                 <motion.div 
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}

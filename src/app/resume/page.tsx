@@ -1,11 +1,16 @@
 "use client"
 import React from 'react';
-import Resume from './resume';
 
 const ResumePage: React.FC = () => {
     return (
-        <div>
-            <Resume />
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+            <iframe
+                src="/RAditya26_SU.pdf"
+                width="80%"
+                height="90%"
+                style={{ border: 'none' }}
+                title="Resume PDF"
+            />
         </div>
     );
 };
