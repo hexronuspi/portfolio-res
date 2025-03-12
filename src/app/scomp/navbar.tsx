@@ -127,7 +127,7 @@ const Navbar = () => {
             </div>
             
             <div className="py-6">
-              <h2 className="text-lg font-semibold text-gray-800 mb-4">Research Interests</h2>
+              <h2 className="text-lg font-semibold text-gray-800 mb-4">Interests</h2>
               <div className="flex flex-wrap gap-3">
                 {[
                   'AI Search',
