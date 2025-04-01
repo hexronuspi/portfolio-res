@@ -162,6 +162,15 @@ const Navbar = () => {
           <div className="bg-white p-6 md:p-8 rounded-xl shadow-sm border border-gray-100">
             <h2 className="text-xl font-bold text-gray-900 mb-6 pb-2 border-b border-gray-200">Research & Experience</h2>
             <div className="space-y-5">
+
+              <div className="flex gap-3">
+                <div className="text-blue-600 font-bold">▪</div>
+                <div>
+                  <h3 className="font-bold text-gray-800">Research Intern, IIIT Hyderabad</h3>
+                  <p className="text-gray-700 mt-1">Knowledge Graph - RAG based LLM for Disaster Situational Awareness</p>
+                </div>
+              </div>
+              
               <div className="flex gap-3">
                 <div className="text-blue-600 font-bold">▪</div>
                 <div>
